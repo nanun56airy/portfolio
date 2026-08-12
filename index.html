@@ -1,29 +1,76 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="th">
 <head>
-
-    <title>Portfolio arreerat</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio ของ อารีรีตน์ บุญจอง</title>
+<link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body bgcolor="FFCCFF">
+<div class="app">
+  <nav class="sidenav">
+    <div class="brand-card">
+      <span class="initials signature">นะนุ่น</span>
+      <span class="fullname">อารีรีตน์ บุญจอง</span>
+    </div>
+    <button class="nav-toggle" aria-label="เปิดเมนู">&#9776;</button>
+    <ul class="navlinks">
+      <li><a href="index.html" aria-current="page">หน้าหลัก</a></li>
+      <li><a href="personal.html">ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">ประวัติการศึกษา</a></li>
+      <li><a href="activities.html">ผลงาน</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+    <div class="sidenav-footer">สมุดแฟ้มผลงาน</div>
+  </nav>
 
+  <main>
+    <section class="hero">
+      <div>
+        <span class="greet signature">สวัสดีค่ะ ยินดีต้อนรับ</span>
+        <h1>Portfolio ของ<br>อารีรีตน์ บุญจอง</h1>
+        <p class="lede">เว็บไซต์แฟ้มสะสมผลงานฉบับนี้รวบรวมประวัติส่วนตัว ประวัติการศึกษา และผลงานของนุ่นไว้ในที่เดียว เพื่อใช้แนะนำตัวสำหรับการศึกษาต่อและโอกาสต่างๆ</p>
+        <div class="hero-cta">
+          <a href="personal.html" class="btn btn-solid">ดูประวัติส่วนตัว</a>
+          <a href="contact.html" class="btn btn-ghost">ช่องทางติดต่อ</a>
+        </div>
+      </div>
 
+      <div class="polaroid">
+        <div class="frame">
+          <!-- ใส่รูปในโฟลเดอร์ images/ ชื่อไฟล์ ภาพนุ่น.png -->
+          <img src="images/ภาพนุ่น.png" alt="รูปอารีรีตน์ บุญจอง">
+        </div>
+        <div class="caption signature">นะนุ่น</div>
+      </div>
+    </section>
 
-<h1>นางสาวอารีรัตน์ บุญจอง</h1>
+    <section>
+      <div class="grid-links">
+        <a class="link-card" href="personal.html">
+          <h3>ประวัติส่วนตัว</h3>
+          <p>ข้อมูลทั่วไปและรูปภาพของนุ่น</p>
+        </a>
+        <a class="link-card" href="education.html">
+          <h3>ประวัติการศึกษา</h3>
+          <p>เส้นทางการเรียนตั้งแต่อดีตถึงปัจจุบัน</p>
+        </a>
+        <a class="link-card" href="activities.html">
+          <h3>ผลงาน</h3>
+          <p>ผลงานและกิจกรรมที่เคยทำ</p>
+        </a>
+        <a class="link-card" href="contact.html">
+          <h3>ติดต่อ</h3>
+          <p>ช่องทางการติดต่อนุ่น</p>
+        </a>
+      </div>
+    </section>
+  </main>
+</div>
 
+<footer>&copy; 2026 อารีรีตน์ บุญจอง — Portfolio Website</footer>
 
-
-<p>นักเรียน</p>
-
-
-
-<p>โรงเรียนพานทอง</p>
-
-
-
+<script src="script.js"></script>
 </body>
-
 </html>
