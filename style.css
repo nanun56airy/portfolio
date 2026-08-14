@@ -292,7 +292,7 @@ main {
 
 .polaroid .frame {
   width: 100%;
-  aspect-ratio: 4 / 3; /* เปลี่ยนจาก 3/4 (แนวตั้ง) เป็น 4/3 (แนวนอน) สำหรับใส่เกียรติบัตร */
+  aspect-ratio: 3 / 4; /* แนวตั้ง (ค่าเริ่มต้น ใช้กับหน้า index / personal) */
   background: var(--paper);
   border: 1px solid var(--line);
   overflow: hidden;
@@ -437,6 +437,7 @@ main {
 }
 
 .work-grid .polaroid { width: 100%; }
+.work-grid .polaroid .frame { aspect-ratio: 4 / 3; } /* แนวนอน เฉพาะหน้าผลงาน สำหรับใส่เกียรติบัตร */
 .work-grid .polaroid:nth-child(2n) { transform: rotate(2.5deg); }
 .work-grid .polaroid:nth-child(3n) { transform: rotate(-1.5deg); }
 .work-grid .polaroid:hover { transform: rotate(0deg) scale(1.02); }
