@@ -292,7 +292,7 @@ main {
 
 .polaroid .frame {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 3; /* เปลี่ยนจาก 3/4 (แนวตั้ง) เป็น 4/3 (แนวนอน) สำหรับใส่เกียรติบัตร */
   background: var(--paper);
   border: 1px solid var(--line);
   overflow: hidden;
